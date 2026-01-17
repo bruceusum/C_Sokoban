@@ -1,6 +1,5 @@
 #include "game.h"
 
-/* global variables */
 int PlayerX = 0;
 int PlayerY = 0;
 int DestCount = 0;
@@ -41,4 +40,5 @@ void ChangeDestCount(int v) {
 
 void ResetDestCount(void) {
     DestCount = 0;
+
 }
